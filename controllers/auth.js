@@ -81,6 +81,8 @@ try {
       msg: 'loginUser',
       email,
       password,
+      uid: usuario.id,
+      name: usuario.name,
       token
   });
     
